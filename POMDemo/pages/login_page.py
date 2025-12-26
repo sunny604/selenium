@@ -8,7 +8,7 @@ class LoginPage:
         self.password_textbox = (By.ID, "sign_in_form_pwd")
         self.login_button = (By.ID, "kt_sign_in_submit")
 
-
+#Test
     def open_page(self, url):
         self.driver.get(url)
     
